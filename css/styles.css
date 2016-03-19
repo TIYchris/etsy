@@ -1,0 +1,349 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+*:before {
+    box-sizing: inherit;
+}
+*:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(245, 245, 241);
+}
+html body {
+    height: 100%;
+    width: 100%;
+    font-size:14px;
+}
+#head {
+    height: 125px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.header-container {
+    display: flex;
+    width: 988px;
+    margin: auto;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #E1E3DF;
+}
+.header-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #E1E3DF;
+    box-shadow: 0 4px 0 rgba(255, 255, 255, 0.25);
+}
+.navContainer {
+    width: 988px;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    font-size: 14px;
+    padding-right: 75px;
+    padding-top: 13px;
+}
+.navlink {
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+}
+.header-container img {
+    height: 55px;
+    width: auto;
+}
+.search {
+    width: 252px;
+    height: 35px;
+    border-radius: 3px 0 0 3px;
+    border-left: 1px solid rgb(205, 201, 198);
+    border-top: 1px solid rgb(205, 201, 198);
+    border-bottom: 1px solid rgb(205, 201, 198);
+    margin-left: 10px;
+    background-color: rgb(251, 251, 250);
+    padding: 8px 0 8px 12px;
+}
+.button-blue {
+    height: 35px;
+    width: 80px;
+    border-radius: 0 3px 3px 0;
+    background-color: rgb(52, 168, 196);
+    color: #ffffff;
+    border: none;
+}
+.link {
+    text-decoration: none;
+    color: rgb(52, 168, 196);
+    margin-right: 17px;
+}
+.sign {
+    text-decoration: none;
+    color: rgb(52, 168, 196);
+    margin-right: 4px;
+    border-radius: 3px;
+    border: 1px solid rgb(52, 168, 196);
+    height: 35px;
+    width: 63px;
+    padding: 9px;
+    margin-right: 17px;
+}
+.cart {
+    text-decoration: none;
+    color: black;
+    border-left: 1px solid rgb(238,238,283);
+    padding-left: 10px;
+    height: 40px;
+
+}
+.wordcart{
+	margin-right: 22px;
+	font-size: 13px;
+	color:rgb (102,102,102);
+}
+.picCart {
+    background-image: url(../images/cart.png) ;
+    background-repeat: no-repeat;
+    transform: scale(0.75, 0.75);
+    width: 35px;
+    height: 35px;
+    position:relative;
+    left:-7px;
+    opacity: 0.6;
+}
+#container {
+    width: 988px;
+    margin: auto;
+}
+.sidenav {
+	width: 245px;
+    height: 410px;
+	margin-top:10px;
+	border-radius: 3px;
+	border:1px solid rgb(226,227,223);
+    background-color: #ffffff;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+    padding: 12px;
+    font-size: 13px;
+}
+
+.sidelink {
+    text-decoration: none;
+    color: rgb(52, 168, 196);
+    padding-left:13px;
+}
+
+.p {
+	font-size: 13px;
+	font-weight:bold;
+	color:rgb(88,88,88);
+
+}
+.navtitle {
+	margin-top: 32px;
+	font-weight: bold;
+	font-size: 13px;
+	color:rgb(88,88,88);
+}
+
+.sidenav2{
+	width: 245px;
+    height: 653px;
+	margin-top:10px;
+	border-radius: 3px;
+	border:1px solid rgb(226,227,223);
+    background-color: #ffffff;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+    padding: 12px;
+    font-size: 13px;
+}
+.price {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.selector {
+  -webkit-appearance: none;
+	border-radius: 50%;
+	border: 1px solid black;
+	outline: none;
+	width: 15px;
+	height: 15px;
+	margin-top:7px;
+}
+.select1 {
+    color: rgb(52, 168, 196);
+    font-weight: normal;
+}
+.select {
+    color: rgb(80,80,80);
+    font-weight: normal;
+}
+.location {
+	text-decoration: none;
+    color: rgb(52, 168, 196);
+    font-weight: normal;
+}
+
+.selector:checked {
+ 	background-color: rgb(52, 168, 196);
+}
+.to {
+	font-weight: normal;
+	margin-top: 10px;
+}
+.box {
+	display:flex;
+	align-items: center;
+	border:1px solid rgb(213,213,213);
+	border-radius: 3px;
+	height: 37px;
+	width: 75px;
+	padding-left:10px;
+	margin-top:10px;
+	font-weight: normal;
+}
+.triangle {
+	display:flex;
+	align-items: center;
+	border:1px solid rgb(213,213,213);
+	height: 37px;
+	width: 37px;
+	border-radius: 3px;
+	padding-left:15px;
+	margin-top:10px;
+}
+.tri {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6.5px 0 6.5px 7px;
+	border-color: transparent transparent transparent #505050;
+}
+
+.hline {
+	border-bottom: 1px solid rgb(213,213,213);
+}
+.color {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+.red {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(244,11,50);
+}
+.orange {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(255,127,0);
+}
+.yellow {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(243,204,12);
+}
+.green {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(10,194,10);
+}
+.blue {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(12,204,243);
+}
+.purple {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(166,12,243);
+}
+.black {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(0,0,0);
+}
+.white {
+	width:20px;
+	height: 20px;
+	border-radius: 3px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(226,227,223);
+}
+.order {
+	margin-left:5px;
+	color: rgb(52, 168, 196);
+	font-weight: normal;
+}
+.ordering {
+	padding-top: 10px;
+}
+.checkbox {
+	margin-bottom: 10px;	
+}
+.shop {
+	padding-top:10px;
+}
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 220px;
+    height:40px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+    margin-top:10px;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    padding-top:12px;
+    font-weight:normal;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+  
+
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Esty</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+</head>
+
+<body>
+  <div id="head">
+    <div class="header">
+      <span class="header-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Etsy_logo.png"/>
+        <div class="search">whiskey</div>
+        <button class="button-blue">Search</button>
+        <div class="header-right"> 
+          <a href="" class="link">Sell on Etsy</a>
+          <a href="" class="link">Register</a>
+          <a href="" class="sign">Sign in</a>
+          <a href="" class="cart">
+            <div class="picCart"></div>
+            <span class="wordcart">Cart</span>
+          </a>
+        </div>
+      </span>
+    </div>
+    <div class="navbar">
+      <div class="navContainer">
+        <a href="" class="navlink">Clothing & Accessories</a>
+        <a href="" class="navlink">Jewelry</a>
+        <a href="" class="navlink">Craft Supplies & Tools</a>
+        <a href="" class="navlink">Weddings</a>
+        <a href="" class="navlink">Entertainment</a>
+        <a href="" class="navlink">Home & Living</a>
+        <a href="" class="navlink">Kids & Baby</a>
+        <a href="" class="navlink">Vintage</a>
+      </div>
+    </div>
+  </div>
+    
+  <div id="container">
+    <div class="navtitle">Show results for:</div>
+    <div class="sidenav">
+      <div class="p">All categories</div>
+      <a href="" class="sidelink">Home & Living</a>
+      <a href="" class="sidelink">Art & Collectibles</a>
+      <a href="" class="sidelink">Weddings</a>
+      <a href="" class="sidelink">Clothing</a>
+      <a href="" class="sidelink">Paper & Party Supplies</a>
+      <a href="" class="sidelink">Jewelry</a>
+      <a href="" class="sidelink">Accessories</a>
+      <a href="" class="sidelink">Craft Supplies & Tools</a>
+      <a href="" class="sidelink">Bags & Purses</a>
+      <a href="" class="sidelink">Bath & Beauty</a>
+      <a href="" class="sidelink">Shoes</a>
+      <a href="" class="sidelink">Books, Movies & Music</a>
+      <a href="" class="sidelink">Electronics & Accessories</a>
+      <a href="" class="sidelink">Toys & Games</a>
+      <a href="" class="sidelink">Pet Supplies</a>
+    </div>
+    <p class="p">Refine your search</p>  
+    <div class="sidenav2">
+      <div class="p">Item type
+        <div>
+          <input class="selector" type="radio" name="items" value="all-items" checked />
+          <span class="select">All items</span><br>
+          <input class="selector" type="radio" name="items" value="handmade" />
+          <span class="select1">Handmade</span><br>
+          <input class="selector" type="radio" name="items" value="vintage" />
+          <span class="select1">Vintage</span> 
+        </div>      
+      </div>
+      <div class="hline"></div>
+      <div class="p">Price($)
+        <div class="price">
+          <div class="box">Low</div>
+          <div class="to">to</div> 
+          <div class="box">High</div>
+          <div class="triangle">
+            <div class="tri"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hline"></div>
+      <div>
+        <div class="p">Filter by color
+          <div class="color">
+            <div class="red"></div> 
+            <div class="orange"></div> 
+            <div class="yellow"></div> 
+            <div class="green"></div> 
+            <div class="blue"></div> 
+            <div class="purple"></div> 
+            <div class="black"></div> 
+            <div class="white"></div> 
+          </div>
+        </div>
+      </div>
+      <div class="hline"></div>
+      <div>
+        <div class="p">Ordering options
+          <div class="ordering">
+            <input class="checkbox" type="checkbox" name"options" value="gift">
+              <span class="order">Accepts Etsy gift cards</span>
+            </input><br>
+            <input class="checkbox" type="checkbox" name"options" value="custom">
+              <span class="order">Customizable</span>
+            </input>
+          </div>
+        </div>
+      </div>
+      <div class="hline"></div>
+      <div class="p">Shop location
+        <div class="shop">
+          <input class="selector" type="radio" name="items" value="anywhere" checked />
+          <span class="select">Anywhere</span><br>
+          <input class="selector" type="radio" name="items" value="united-states" />
+          <snap class="select1">United States</snap><br>
+          <a class="location" href="">Choose a custom location</a>  
+        </div>
+      </div>
+      <div class="hline"></div>
+      <div class="p">Ship to
+        <div class="select-style">
+          <select>
+            <option class="drop" value="us">United States</option>
+            <option class="drop"  value="canada">Canada</option>
+            <option  class="drop" value="us">Live to far away</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <div id="app">
+    
+  </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script src="js/mustache.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
